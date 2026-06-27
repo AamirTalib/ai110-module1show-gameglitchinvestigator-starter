@@ -53,12 +53,18 @@ One test I ran using pytest was for a single digit guess against a double digit 
 ## 4. What did you learn about Streamlit and state?
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
-
+I would explain it as Streamlit reruning the application when a user interacts with an and session state as 
+a version that preserves values like the secret number, score, attempts, history, and game status across reruns. 
 ---
 
 ## 5. Looking ahead: your developer habits
 
-- What is one habit or strategy from this project that you want to reuse in future labs or projects?
+- What is one habit or strategy from this project that you want to reuse in future labs or projects? 
   - This could be a testing habit, a prompting strategy, or a way you used Git.
+One Stategy that i used in this project that i intend to use in the future is to have AI tools generate me the promtps to insert into claude code of course after reviewing and slightly altering it myself to ensure that token usage is efficient and code is accurately written
+
 - What is one thing you would do differently next time you work with AI on a coding task?
+I would prompt it as accurately and as detailed as possible to ensure it does everythign correctly
+
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+This project was was great and taught me alot about the debugging process with AI, it can get messy if done wrong so its important ot be precise 

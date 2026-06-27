@@ -25,28 +25,31 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
+- [The games purpose it to have the player quess the secret number out of a certain ranfge of numbers] 
+
+- [The bugs I found are as follows: Hints are inacurate, New game feature doesnt work, Number ranges and attempts are mismatched across difficulty levels, the scoring system also does not make any sense ]
+
 - [ ] Explain what fixes you applied.
 
 ## 📸 Demo Walkthrough
 
-Describe your fixed game in numbered steps so a reader can follow along without watching a video:
+## Demo Walkthrough
 
-1. <!-- Describe this step -->
-2. <!-- Describe this step -->
-3. <!-- Describe this step -->
-4. <!-- Describe this step -->
-5. <!-- Add more steps as needed -->
+1. The user selects **Normal** difficulty, which gives a number range of 1 to 100 and eight attempts.
+2. In this example, the secret number is 50. The user enters 40, and the game correctly identifies the guess as **Too Low** and tells the user to go higher.
+3. The user then enters 70. The game correctly identifies the guess as **Too High** and tells the user to go lower.
+4. The user enters an invalid value such as `hello`. The game displays an error message and does not use one of the player’s attempts.
+5. The user enters 50, receives a winning message, and sees their final score.
+6. The user clicks **New Game**, and the game resets the secret number, attempts, score, history, and game status so another game can begin.
 
-**Screenshot** *(optional)*: <!-- Insert a screenshot of your fixed, winning game here -->
+
 
 ## 🧪 Test Results
 
 ```
 # Paste your pytest output here, e.g.:
 # pytest tests/
-# ========================= X passed in 0.XXs =========================
+# ========================= 4 passed in 0.01s =========================
 ```
 
 ## 🚀 Stretch Features
