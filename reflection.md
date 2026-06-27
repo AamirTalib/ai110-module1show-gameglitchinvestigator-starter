@@ -4,9 +4,16 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 
 ## 1. What was broken when you started?
 
-- What did the game look like the first time you ran it?
+- What did the game look like the first time you ran it? 
+When I first ran it visually the game looked good from a desgin perspective it even had a light and dark mode but as i began playing it and testing the features I started to find the bugs within it
+
 - List at least two concrete bugs you noticed at the start  
   (for example: "the hints were backwards").
+ 
+ - Hints are inacurate
+ - New game feature doesnt work
+ - Number ranges and attempts are mismatched across difficulty levels
+ - the scoring system also does not make any sense
 
 **Bug Reproduction Log**
 
@@ -14,9 +21,9 @@ Document at least 3 bugs you found. Add rows as needed.
 
 | Input | Expected Behavior | Actual Behavior | Console Output / Error |
 |-------|-------------------|-----------------|------------------------|
-| | | | |
-| | | | |
-| | | | |
+| 13 | Hint should say Go Higher | Hint says go Lower | No Output/Console Error |
+| Start New Game button | Should start a new game | The secret number changes but nothing else happns | No Error |
+| Hard Mode | Number Range is smaller | It should be Higher to succesfully increase the difficulty | No Error |
 
 ---
 
