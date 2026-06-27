@@ -29,18 +29,24 @@ Document at least 3 bugs you found. Add rows as needed.
 
 ## 2. How did you use AI as a teammate?
 
-- Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)?
-- Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
-- Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
+- Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)? I used ChatGPT and Claude Code 
+
+- Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result). One sugesstion that was correct was ensuring that check_guess() focused on comparing numerical values and returned either win, too high, or too low 
+
+- Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result). One suggestion that was  incomplete was when I tried to fix the  number range issue, ChatGPT suggested a change that addressed part of the problem but it did not correctly update the UI and random secret-number generation, making the number still apear out of the range when pressing new game
 
 ---
 
 ## 3. Debugging and testing your fixes
 
-- How did you decide whether a bug was really fixed?
+- How did you decide whether a bug was really fixed? By refreshing the game and testing out if the change was succefully wokring 
+
 - Describe at least one test you ran (manual or using pytest)  
   and what it showed you about your code.
-- Did AI help you design or understand any tests? How?
+
+One test I ran using pytest was for a single digit guess against a double digit secret to see if the higher lower logic would repond correctly
+
+- Did AI help you design or understand any tests? How? Yes it explained the test to me, how it was desging it, what it would be checking and what the expected outcome should be 
 
 ---
 

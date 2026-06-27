@@ -14,3 +14,8 @@ def test_guess_too_low():
     # If secret is 50 and guess is 40, hint should be "Too Low"
     result = check_guess(40, 50)
     assert result == "Too Low"
+
+def test_single_digit_guess_against_two_digit_secret():
+    # Numeric ordering: guess 9 vs secret 10 should be "Too Low"
+    result = check_guess(9, 10)
+    assert result == "Too Low"
